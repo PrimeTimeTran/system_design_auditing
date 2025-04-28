@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose'
-import { Auditor } from './Audit'
+import { Auditor } from './Auditor'
 
 const userSchema = new Schema({
   email: {
